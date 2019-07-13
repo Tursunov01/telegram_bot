@@ -345,4 +345,4 @@ def send_text(message):
             bot.send_photo(message.chat.id, 'https://imbt.ga/dQG67bCiDT')
             names.remove(names[len(names)-1])
 
-bot.polling()
+bot.polling(none_stop= True, interval = 0)
