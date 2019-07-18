@@ -1,6 +1,5 @@
 import telebot
-
-names = []
+#names = []
 
 bot = telebot.TeleBot('883652979:AAFZDW2E8mcJ8dbTq9Lcct-YTZ4uxcnJoBw')
 
@@ -80,7 +79,7 @@ def send_text(message):
         bot.send_photo(message.chat.id, 'https://imbt.ga/4fPuILxzvc')
     elif current == 'афродита сундук':
         bot.send_photo(message.chat.id, 'https://imbt.ga/bO0rl62KQ4')
-    elif current == 'розалина':
+    '''elif current == 'розалина':
         names.clear()
         names.append(current)
         bot.send_message(message.chat.id, 'Выберите цвет', reply_markup=keyboard_all_colors)
@@ -148,124 +147,162 @@ def send_text(message):
         names.append(current)
         if names[0] == 'розалина' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/rvNNpofHDz')
-            names.remove(names[len(names) - 1])
+            #names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'мармарис' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/kgJnzMkcfw')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'анна' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/zZNjnN9ut2')
-            names.remove(names[len(names) - 1])
-        if names[0] == 'элегант люкс' and names[len(names) - 1] == 'ночь':
+            # names.remove(names[len(names) - 1])
+            names.clear()
+        if names[0] == 'элегант люкс' and names[len(names) - 1] ==  'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/vbFzXd02nN')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'александра' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/jREzYzVkiK')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'сенатор' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/nMPHUkruxO')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'изабелла 4' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/psb1OU5F9s')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'изабелла 6' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/xGwcMk6Gzo')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == '0101' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/9EuLQ0oq3E')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == '0102' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/aLuobZAH5g')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == '0103' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/uhXmBunX59')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == '0104' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/K2nZzPFmiM')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'пенал 8069' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/fOyL0Kw8IW')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'пенал 8070' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/9qKDYjHlyj')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'горка 8069' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/rPVXavv5ZL')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'стенка афродита' and names[len(names) - 1] == 'ночь':
             bot.send_photo(message.chat.id, 'https://imbt.ga/gFHjdfpnKg')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
 
     elif current == 'белый':
         names.append(current)
         if names[0] == 'розалина' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/ZuudtrTBA1')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'мармарис' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/t0rdR8wkFd')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'анна' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/P92vNIG0qB')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'элегант люкс' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/TuIOd8aQL4')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'александра' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/dE1lBc7pxQ')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'сенатор' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/eObbn4twmD')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'изабелла 4' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/GHi0DGrjQb')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'изабелла 6' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/aYPWExdyaR')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == '0101' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/IvUrBaIQCo')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == '0102' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/nrfeeC0jRf')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == '0103' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/J3fbUGG9jcf')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == '0104' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/WsxxcltFca')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'пенал 8069' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/3I1Fq3H9uW')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'пенал 8070' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/lNGW8HDvNE')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'горка 8069' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/1VuWUZ4zH2')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'стенка афродита' and names[len(names) - 1] == 'белый':
             bot.send_photo(message.chat.id, 'https://imbt.ga/bBOPVauc04')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
 
     elif current == 'дуб':
         names.append(current)
         if names[0] == 'розалина' and names[len(names) - 1] == 'дуб':
             bot.send_photo(message.chat.id, 'https://imbt.ga/mnJCvyj3Ly')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'мармарис' and names[len(names) - 1] == 'дуб':
             bot.send_photo(message.chat.id, 'https://imbt.ga/6HEILfar4Y')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'сенатор' and names[len(names) - 1] == 'дуб':
             bot.send_photo(message.chat.id, 'https://imbt.ga/MjFICKQm61')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'пенал 8069' and names[len(names) - 1] == 'дуб':
             bot.send_photo(message.chat.id, 'https://imbt.ga/B9tr2WXMvT')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'пенал 8070' and names[len(names) - 1] == 'дуб':
             bot.send_photo(message.chat.id, 'https://imbt.ga/nix9b8jgAG')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()
         if names[0] == 'горка 8069' and names[len(names) - 1] == 'дуб':
             bot.send_photo(message.chat.id, 'https://imbt.ga/dQG67bCiDT')
-            names.remove(names[len(names) - 1])
+            # names.remove(names[len(names) - 1])
+            names.clear()'''
 
 
 bot.polling(none_stop=True, interval=0)
