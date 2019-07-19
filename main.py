@@ -3,9 +3,6 @@ import os
 from flask import Flask, request
 import logging
 
-
-
-
 #names = []
 
 bot = telebot.TeleBot('883652979:AAFZDW2E8mcJ8dbTq9Lcct-YTZ4uxcnJoBw')
@@ -324,7 +321,7 @@ if "HEROKU" in list(os.environ.keys()):
     @server.route("/")
     def webhook():
         bot.remove_webhook()
-        bot.set_webhook(url="https://dashboard.heroku.com/apps/izabella-mebel-bot") # этот url нужно заменить на url вашего Хероку приложения
+        bot.set_webhook(url="https://izabella-mebel-bot.herokuapp.com/") # этот url нужно заменить на url вашего Хероку приложения
         return "?", 200
     server.run(host="0.0.0.0", port=os.environ.get('PORT', 80))
 else:
